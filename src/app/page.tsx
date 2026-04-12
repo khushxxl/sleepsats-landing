@@ -171,6 +171,9 @@ export default function Home() {
           <a href="/privacy" className="transition-colors hover:text-white/80">
             Privacy Policy
           </a>
+          <a href="/contact" className="transition-colors hover:text-white/80">
+            Contact
+          </a>
         </footer>
       </section>
 
