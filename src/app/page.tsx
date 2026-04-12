@@ -162,6 +162,16 @@ export default function Home() {
         </div>
 
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/40 to-transparent" />
+
+        <footer className="relative z-10 mt-12 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-white/40 sm:text-sm">
+          <span>&copy; {new Date().getFullYear()} Bula Media Ltd</span>
+          <a href="/terms" className="transition-colors hover:text-white/80">
+            Terms &amp; Conditions
+          </a>
+          <a href="/privacy" className="transition-colors hover:text-white/80">
+            Privacy Policy
+          </a>
+        </footer>
       </section>
 
       {/* Dialog */}
